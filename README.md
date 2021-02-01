@@ -7,7 +7,9 @@ For example, use this code before closing tag <body> in file footer.php of your 
 
 ```
 <script type='text/javascript'>
+    /* <![CDATA[ */
     window.ajaxurl  = '<?php echo site_url() . '/api/json-rpc.php'; ?>';
+    /* ]]> */
 </script>
 ````
 
